@@ -1,8 +1,10 @@
 <p align="center">
-   <img width="800" src="https://raw.githubusercontent.com/HsuanXyz/ionic-stepper/master/screenshot.png">
+   <img width="800" src="https://raw.githubusercontent.com/NikolaPeevski/ionic-stepper/master/screenshot.png">
 </p>
 
 # ionic-stepper
+
+## This repo has been forked from https://raw.githubusercontent.com/HsuanXyz and migrated to Ionicv5
 
 Steppers components for Ionic.
 
@@ -140,17 +142,12 @@ moves to the previous step in the stepper
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-[build-image]: https://travis-ci.org/HsuanXyz/ionic-stepper.svg?branch=master
-[build-image]: https://travis-ci.org/HsuanXyz/ionic-stepper
 
-[dependency-image]: https://david-dm.org/HsuanXyz/ionic-stepper.svg
-[dependency-url]:https://david-dm.org/HsuanXyz/ionic-stepper
+<!-- [npm-image]: https://img.shields.io/npm/v/ionic-stepper.svg -->
+<!-- [npm-url]: https://www.npmjs.com/package/ionic-stepper -->
 
-[npm-image]: https://img.shields.io/npm/v/ionic-stepper.svg
-[npm-url]: https://www.npmjs.com/package/ionic-stepper
-
-[downloads-image]: https://img.shields.io/npm/dm/ionic-stepper.svg
-[downloads-url]: http://badge.fury.io/js/ionic-stepper
+<!-- [downloads-image]: https://img.shields.io/npm/dm/ionic-stepper.svg -->
+<!-- [downloads-url]: http://badge.fury.io/js/ionic-stepper -->
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE

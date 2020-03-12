@@ -1,7 +1,7 @@
 {
   "name": "ionic-stepper",
-  "version": "1.1.0",
-  "description": "steppers components for Ionic / ionic2",
+  "version": "1.0.0",
+  "description": "Steppers components for Ionic, updated from version 5 made by HsuanLee",
   "main": "dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
@@ -47,10 +47,10 @@
     "steppers",
     "step"
   ],
-  "author": "HsuanLee",
+  "author": "NikolaPeevski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HsuanXyz/ionic-stepper/issues"
+    "url": "https://github.com/NikolaPeevski/ionic-stepper"
   },
-  "homepage": "https://github.com/HsuanXyz/ionic-stepper#readme"
+  "homepage": "https://github.com/NikolaPeevski/ionic-stepper#readme"
 }
