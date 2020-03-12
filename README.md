@@ -1,10 +1,12 @@
-<p align="center">
+WIP Forked from https://github.com/hsuanxyz/ionic-stepper
+
+<!-- <p align="center">
    <img width="800" src="https://raw.githubusercontent.com/NikolaPeevski/ionic-stepper/master/screenshot.png">
 </p>
 
 # ionic-stepper
 
-## This repo has been forked from https://raw.githubusercontent.com/HsuanXyz and migrated to Ionicv5
+## This repo has been forked from https://github.com/HsuanXyz and migrated to Ionicv5
 
 Steppers components for Ionic.
 
@@ -148,6 +150,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <!-- [downloads-image]: https://img.shields.io/npm/dm/ionic-stepper.svg -->
 <!-- [downloads-url]: http://badge.fury.io/js/ionic-stepper -->
-
-[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
-[license-url]: LICENSE
+ -->
+<!-- [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat -->
+<!-- [license-url]: LICENSE -->

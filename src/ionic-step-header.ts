@@ -21,7 +21,8 @@ import { IonicStepStatus } from './ionic-step';
   `,
   host: {
     '[class.ionic-step-header-status-error]': 'isError'
-  }
+  },
+  styles: ['./ionic-step-header.scss']
 })
 export class IonicStepHeaderComponent {
 
