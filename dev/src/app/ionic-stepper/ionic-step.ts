@@ -18,6 +18,6 @@ export class IonicStepComponent {
   @Input() errorIcon = 'close';
   @Input() status: IonicStepStatus = '';
 
-  @ViewChild(TemplateRef) content: TemplateRef<any>;
+  @ViewChild(TemplateRef, {static: false}) content: TemplateRef<any>;
 
 }

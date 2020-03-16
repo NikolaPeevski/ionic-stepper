@@ -1,28 +1,28 @@
 import { Component, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { IonicStepperComponent } from "../../ionic-stepper";
+import { IonicStepperComponent } from '../../ionic-stepper';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-  mode:string = 'vertical';
+  mode = 'vertical';
   selectedIndex = 0;
   stepperForm: FormGroup;
-  _JSONString: string = '';
+  _JSONString = '';
 
-  get name() { return this.stepperForm.get('name') }
-  get email() { return this.stepperForm.get('email') }
-  get address() { return this.stepperForm.get('address') }
+  get name() { return this.stepperForm.get('name'); }
+  get email() { return this.stepperForm.get('email'); }
+  get address() { return this.stepperForm.get('address'); }
 
-  @ViewChild('stepper') stepper: IonicStepperComponent;
+  @ViewChild('stepper', {static: false}) stepper: IonicStepperComponent;
   constructor(private fb: FormBuilder) {
-    this.stepperForm = fb.group({
+    this.stepperForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(3)]],
       email: ['', [Validators.required, Validators.email]],
-      address: ['']
-    })
+      address: [''],
+    });
   }
 
   selectChange(e) {
@@ -44,7 +44,7 @@ export class HomePage {
       address: '',
     });
     this._JSONString = '';
-    this.stepper.setStep(0)
+    this.stepper.setStep(0);
   }
 
 
